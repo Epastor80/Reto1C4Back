@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/validarregistro.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Crear Cuenta</title>
+</head>
+<body>
+    <form class= "formulario">
+        <h1>Crear Cuenta</h1>
+        <div class="contenedor">
+            
+            <div class="etiqueta">
+                <label for="username" class="etiqueta">Nombre:</label>
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-user icon"></i>            
+                <input type="text" placeholder="Nombre" id="name" required>
+            </div>
+
+            <div class="etiqueta">
+                <label for="useremail" class="etiqueta">E-mail:</label>
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input type="text" placeholder="E-mail" id="email" required>
+            </div>
+
+            <div class="etiqueta">
+                <label for="userpassword" class="etiqueta">Contraseña:</label>
+            </div>
+
+            <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+                <input type="password" placeholder="Contraseña" id="password" required>
+            </div>
+            <p>La contraseña debe tener al menos 6 Caracteres</p>
+
+            <div class="etiqueta">
+                <label for="userpassword" class="etiqueta">Confirmar tu Contraseña:</label>
+            </div>
+
+            <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+             <input type="password" placeholder="Contraseña" id="password2" required>
+            </div>
+
+           <div><button class="button" type="button" onclick="validar2()">Crear</button></div>
+            <p>¿Ya tienes una cuenta? <a class="link" href="index.html">Iniciar Sesion aqui</p> 
+
+        </div>
+    </form>
+</body>
+</html>

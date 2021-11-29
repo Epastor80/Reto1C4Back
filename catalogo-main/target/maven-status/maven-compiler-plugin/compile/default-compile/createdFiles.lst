@@ -1,0 +1,6 @@
+com\catalogo\Catalogo\service\ServiceUsuarios.class
+com\catalogo\Catalogo\repository\RepositoryUsuarios.class
+com\catalogo\Catalogo\web\UsuariosWeb.class
+com\catalogo\Catalogo\CatalogoApplication.class
+com\catalogo\Catalogo\repository\crud\InterfaceUsuarios.class
+com\catalogo\Catalogo\model\Usuarios.class
